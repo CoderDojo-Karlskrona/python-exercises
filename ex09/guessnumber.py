@@ -2,12 +2,12 @@ import random
 
 random.seed()
 number = random.randrange(0, 100, 1)
-
+# print number
 guesscount = 0
 
 while True:
     guess = int(raw_input("Guess: "))
-    guesscount = guesscount + 1
+    guesscount += 1
     if guess == number:
         print "Correct, " + str(guesscount) + " guesses"
         break

@@ -10,7 +10,7 @@ guesscount = 0
 while True:
     try: 
         guess = int(raw_input("Guess: "))
-        guesscount = guesscount + 1
+        guesscount += 1
         if guess == number:
             print "Correct, " + str(guesscount) + " guesses"
             break
