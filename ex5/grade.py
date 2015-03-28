@@ -1,4 +1,4 @@
-score = float(raw_input("Poang: "))
+score = float(raw_input("Score: "))
 if score > 100 or score < 0:
     print "Score out of range"
 elif score >= 90:
