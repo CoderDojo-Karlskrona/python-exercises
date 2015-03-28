@@ -3,7 +3,7 @@ import random
 random.seed()
 number = random.randrange(0, 100, 1)
 
-print number
+# print number
 
 guesscount = 0
 
