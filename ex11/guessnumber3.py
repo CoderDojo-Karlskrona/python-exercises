@@ -11,7 +11,7 @@ def getGuess():
 random.seed()
 number = random.randrange(0, 50, 1)
 
-print number
+# print number
 
 guesscount = 0
 
