@@ -1,4 +1,6 @@
 fh = open("../data/words.txt")
+# dictionary for unique words
+# word -> count
 uwords = dict()
 for line in fh:
     for word in line.split():
@@ -11,5 +13,6 @@ for word in uwords:
         mostCommonWord = word
         mostCommonWordCount = uwords.get(word)
 
+# a loop to count the dict works as well
 print "Unika ord: " + str(len(uwords))
 print "Vanligaste ordet: " + mostCommonWord
