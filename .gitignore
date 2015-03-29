@@ -1,3 +1,6 @@
 #PyDev -LiClipse
 .project
 .pydevproject
+
+#all potential output files
+*.out
