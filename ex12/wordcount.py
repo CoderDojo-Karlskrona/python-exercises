@@ -1,5 +1,5 @@
 # solution one, loop for each word
-fh = open("words.txt")
+fh = open("../data/words.txt")
 wordCount = 0
 for line in fh:
     for word in line.split():
@@ -8,7 +8,7 @@ for line in fh:
 print "Words: " + str(wordCount)
 
 # solution two, simply count the length of the split
-fh = open("words.txt")
+fh = open("../data/words.txt")
 wordCount = 0
 for line in fh:
     wordCount += len(line.split())
