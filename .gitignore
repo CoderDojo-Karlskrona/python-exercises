@@ -4,3 +4,5 @@
 
 #all potential output files
 *.out
+
+*.pyc
