@@ -13,7 +13,7 @@ for sentence in sentences:
     outFile.write('\n')
 outFile.close()
 
-# emtpy line
+# empty line
 print ""
 
 fh = open("mywords.out")
