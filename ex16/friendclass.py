@@ -4,5 +4,5 @@ class Friend:
         self.phone = phone
         
     def toString(self):
-        return self.name + ":" + self.phone
+        return self.name + " " + self.phone
     
