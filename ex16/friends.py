@@ -12,5 +12,7 @@ while True:
      
     friends.append(Friend(name, number))
     
+print "----------------"
+    
 for friend in friends:
     print friend.toString()
